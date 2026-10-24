@@ -1,0 +1,34 @@
+STARFALL - START HERE
+
+Double-click PLAY.bat or Starfall.exe to play. Keep every supplied DLL and the resources
+folder beside it. Restore the complete package if a resource is missing.
+No installation, account, or internet connection is needed.
+Extract the complete Starfall-Windows-x64.zip before playing. The separate
+Starfall-Source.zip contains rebuild inputs, not a precompiled game.
+PLAY.bat --help shows launch options; PLAY.bat --check checks required files.
+
+Detailed guides in this package:
+docs/USER.md   - launching, display/sound, upgrades, saves, and recovery
+docs/PLAYER.md - controls, combat, HUD, scoring, and submitting a result
+docs/SAVES.md  - score compatibility, backups, and save failures
+
+WASD / arrows: move
+Mouse: aim
+Hold left click / Space: fire
+Shift: dash
+Escape / P: pause and resume
+F11: fullscreen
+M / sound button: sound on or off
+
+Survive ten waves and defeat the Dreadnought.
+Cyan plus signs repair hull. Gold pickups activate overdrive.
+After a run, type a name and press Save before leaving the end screen.
+The top ten scores are saved on this computer.
+
+Save folder: %APPDATA%\Starfall\Starfall\leaderboard.txt
+
+Original C++17 / SDL2 game inspired by meemknight's C++ game course.
+Game code: MIT license (LICENSE.txt).
+SDL2: zlib license (SDL2-LICENSE.txt).
+Reference assets, companion libraries, and FreeType: see docs/CREDITS.md,
+resources/reference/NOTICE.md, third_party/RESOURCE-MANIFEST.md, and licenses.

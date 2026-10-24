@@ -1,0 +1,134 @@
+{
+  "repository": "libsdl-org/SDL_ttf",
+  "revision": "2a891473eaf05ba1707a4b7913e6c4db7de7458a",
+  "files": [
+    {
+      "path": "CHANGES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e7631d405104f5f78cb620bd9aa6dbe9bc7ad6d",
+      "size": 4050,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/9e7631d405104f5f78cb620bd9aa6dbe9bc7ad6d"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c272bb0e4938432bbf0a5e9de80e0efffd42c72",
+      "size": 15439,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/9c272bb0e4938432bbf0a5e9de80e0efffd42c72"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52d0ed38b843709d0d103d55bfb75715ec60550d",
+      "size": 878,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/52d0ed38b843709d0d103d55bfb75715ec60550d"
+    },
+    {
+      "path": "README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8704fade43c63ccb6c0f16bd1a11718ad99acd8",
+      "size": 1032,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/b8704fade43c63ccb6c0f16bd1a11718ad99acd8"
+    },
+    {
+      "path": "SDL2_ttf.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71d3d1b0c7ad633804388db69325448baa6b0515",
+      "size": 341,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/71d3d1b0c7ad633804388db69325448baa6b0515"
+    },
+    {
+      "path": "SDL2_ttfConfig.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6029542a791c1ec75323a84ff221dbf85c320f19",
+      "size": 1628,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/6029542a791c1ec75323a84ff221dbf85c320f19"
+    },
+    {
+      "path": "SDL_ttf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eea128d0ad99b3d8a99ba6a8fb347ef22499cdd3",
+      "size": 153353,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/eea128d0ad99b3d8a99ba6a8fb347ef22499cdd3"
+    },
+    {
+      "path": "SDL_ttf.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7860b74bff0f97fc025b42987c4d6c17e86004d4",
+      "size": 88154,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/7860b74bff0f97fc025b42987c4d6c17e86004d4"
+    },
+    {
+      "path": "cmake/CommonFindSDL2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a41bc6c97a2a47429b2125594bcf93582024235",
+      "size": 654,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/0a41bc6c97a2a47429b2125594bcf93582024235"
+    },
+    {
+      "path": "cmake/FindPrivateSDL2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0314170673ad54fa1ffa5f35b8500f74a8c3bfaa",
+      "size": 1608,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/0314170673ad54fa1ffa5f35b8500f74a8c3bfaa"
+    },
+    {
+      "path": "cmake/FindSDL2main.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbdfee862497c50dff7e24850fdc3977a9a2a3a6",
+      "size": 640,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/cbdfee862497c50dff7e24850fdc3977a9a2a3a6"
+    },
+    {
+      "path": "cmake/Findharfbuzz.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53407e28571d60c44f2bff23943f9ed0dfb5edf7",
+      "size": 1177,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/53407e28571d60c44f2bff23943f9ed0dfb5edf7"
+    },
+    {
+      "path": "cmake/PrivateSdlFunctions.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f3786c0511bc4366e43e4e9186f30049aaea738",
+      "size": 12615,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/1f3786c0511bc4366e43e4e9186f30049aaea738"
+    },
+    {
+      "path": "sdl2_ttf-config-version.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87728c604ad106525eed3c883d4fa110b46e062",
+      "size": 389,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/f87728c604ad106525eed3c883d4fa110b46e062"
+    },
+    {
+      "path": "sdl2_ttf-config.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09b75f545ecba295b7ea15f6ebd4e079b3cb537f",
+      "size": 3559,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/09b75f545ecba295b7ea15f6ebd4e079b3cb537f"
+    },
+    {
+      "path": "version.rc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3abd2e6ae182a494a21cb84b8a4d99aa72cb0d9",
+      "size": 977,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_ttf/git/blobs/f3abd2e6ae182a494a21cb84b8a4d99aa72cb0d9"
+    }
+  ]
+}

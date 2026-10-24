@@ -1,0 +1,366 @@
+{
+  "repository": "libsdl-org/SDL_image",
+  "revision": "c1bf2245b0ba63a25afe2f8574d305feca25af77",
+  "files": [
+    {
+      "path": "CHANGES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18848a133bea0799ade8eb0a69270ae8e57e1fda",
+      "size": 8631,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/18848a133bea0799ade8eb0a69270ae8e57e1fda"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ceee1d5404abe3e8c503ee846cc665680587a48",
+      "size": 40948,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/4ceee1d5404abe3e8c503ee846cc665680587a48"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52d0ed38b843709d0d103d55bfb75715ec60550d",
+      "size": 878,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/52d0ed38b843709d0d103d55bfb75715ec60550d"
+    },
+    {
+      "path": "README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f6d36d205b5217b134b974a61a2a79d31fccd77",
+      "size": 2041,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/4f6d36d205b5217b134b974a61a2a79d31fccd77"
+    },
+    {
+      "path": "SDL2_image.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8711dd73887850256b7d7f7da31cc42d927c18ff",
+      "size": 331,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/8711dd73887850256b7d7f7da31cc42d927c18ff"
+    },
+    {
+      "path": "SDL2_imageConfig.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c7efab531220ac3277830289642e9dd23a12c54",
+      "size": 3212,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/7c7efab531220ac3277830289642e9dd23a12c54"
+    },
+    {
+      "path": "cmake/CommonFindSDL2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59939dc93d2bdb591dea57ece263c554e84fd7d8",
+      "size": 655,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/59939dc93d2bdb591dea57ece263c554e84fd7d8"
+    },
+    {
+      "path": "cmake/FindPrivateSDL2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0314170673ad54fa1ffa5f35b8500f74a8c3bfaa",
+      "size": 1608,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/0314170673ad54fa1ffa5f35b8500f74a8c3bfaa"
+    },
+    {
+      "path": "cmake/FindSDL2main.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbdfee862497c50dff7e24850fdc3977a9a2a3a6",
+      "size": 640,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/cbdfee862497c50dff7e24850fdc3977a9a2a3a6"
+    },
+    {
+      "path": "cmake/FindSDL2test.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1318fba6ce7e60fac0faef8250700d2e0452bbc1",
+      "size": 1100,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/1318fba6ce7e60fac0faef8250700d2e0452bbc1"
+    },
+    {
+      "path": "cmake/Findlibjxl.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e74f265d36ba0c6ad2882dd1c794afcb1f2c3752",
+      "size": 958,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/e74f265d36ba0c6ad2882dd1c794afcb1f2c3752"
+    },
+    {
+      "path": "cmake/Findwebp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e07b377c297c99ec63ad077e2894522be45a331f",
+      "size": 1797,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/e07b377c297c99ec63ad077e2894522be45a331f"
+    },
+    {
+      "path": "cmake/PrivateSdlFunctions.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f3786c0511bc4366e43e4e9186f30049aaea738",
+      "size": 12615,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/1f3786c0511bc4366e43e4e9186f30049aaea738"
+    },
+    {
+      "path": "include/SDL_image.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34fca876f4eb9f8be79cd0406b3fd65dd90a3fac",
+      "size": 71062,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/34fca876f4eb9f8be79cd0406b3fd65dd90a3fac"
+    },
+    {
+      "path": "sdl2_image-config-version.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d9afca713eeb98304492ec0c3d8427ef566a32",
+      "size": 392,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/00d9afca713eeb98304492ec0c3d8427ef566a32"
+    },
+    {
+      "path": "sdl2_image-config.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb0f9d605a525e6b36c433a35f000586f188da18",
+      "size": 4034,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/eb0f9d605a525e6b36c433a35f000586f188da18"
+    },
+    {
+      "path": "src/IMG.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b34e6b8c4b48e1f2108d1c48f471288571fb867",
+      "size": 13150,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/1b34e6b8c4b48e1f2108d1c48f471288571fb867"
+    },
+    {
+      "path": "src/IMG_ImageIO.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d309dade46b0665078aebe15b34952806b15ce3",
+      "size": 17755,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/5d309dade46b0665078aebe15b34952806b15ce3"
+    },
+    {
+      "path": "src/IMG_WIC.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77430b1b7efaa0fd5e679934743a5a4e59ae5ba2",
+      "size": 7875,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/77430b1b7efaa0fd5e679934743a5a4e59ae5ba2"
+    },
+    {
+      "path": "src/IMG_avif.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cbe229f454cdbc67b066590fa0a46a9d857e467",
+      "size": 9501,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/0cbe229f454cdbc67b066590fa0a46a9d857e467"
+    },
+    {
+      "path": "src/IMG_bmp.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1f628c85c57d015da198ce8f971cc00dd1ad7f",
+      "size": 13777,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/ee1f628c85c57d015da198ce8f971cc00dd1ad7f"
+    },
+    {
+      "path": "src/IMG_gif.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58667e94d8d568378a67127c54a9ec547c24b017",
+      "size": 23573,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/58667e94d8d568378a67127c54a9ec547c24b017"
+    },
+    {
+      "path": "src/IMG_jpg.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98050b9d77c7d35ad2e6f38bc9daaa3cd0392d02",
+      "size": 25313,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/98050b9d77c7d35ad2e6f38bc9daaa3cd0392d02"
+    },
+    {
+      "path": "src/IMG_jxl.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96439119b5eabc69cc5c415b9843630e16130020",
+      "size": 8978,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/96439119b5eabc69cc5c415b9843630e16130020"
+    },
+    {
+      "path": "src/IMG_lbm.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66215e6f018d43162b6d342e43d59fd4647f3fa7",
+      "size": 16640,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/66215e6f018d43162b6d342e43d59fd4647f3fa7"
+    },
+    {
+      "path": "src/IMG_pcx.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "317488ff7e2deb6b28569c9a8824a06c360259b3",
+      "size": 9191,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/317488ff7e2deb6b28569c9a8824a06c360259b3"
+    },
+    {
+      "path": "src/IMG_png.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdee02cfb179ff24999b5aaa9341c913be826f49",
+      "size": 28544,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/cdee02cfb179ff24999b5aaa9341c913be826f49"
+    },
+    {
+      "path": "src/IMG_pnm.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ba2efee94af52166e85795d968f5a63b0e5f77",
+      "size": 7305,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/21ba2efee94af52166e85795d968f5a63b0e5f77"
+    },
+    {
+      "path": "src/IMG_qoi.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c721e868def7b5e93efda43b1c2bfa39b86957",
+      "size": 3533,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/30c721e868def7b5e93efda43b1c2bfa39b86957"
+    },
+    {
+      "path": "src/IMG_stb.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38faa8030cf13a57de2479627a628f5476e1c49",
+      "size": 8387,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/d38faa8030cf13a57de2479627a628f5476e1c49"
+    },
+    {
+      "path": "src/IMG_svg.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "165f9a54f5388c3af791f958f1756cf010691829",
+      "size": 5374,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/165f9a54f5388c3af791f958f1756cf010691829"
+    },
+    {
+      "path": "src/IMG_tga.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "537f2ee7fc9486520782362617c0976722971a9f",
+      "size": 8954,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/537f2ee7fc9486520782362617c0976722971a9f"
+    },
+    {
+      "path": "src/IMG_tif.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6b76b9475a8b3fdd9739a867ba2469949fb11cd",
+      "size": 6556,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/a6b76b9475a8b3fdd9739a867ba2469949fb11cd"
+    },
+    {
+      "path": "src/IMG_webp.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c96e02d8a6e20a5327e3ea2b3912c3ca315e29a",
+      "size": 14347,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/7c96e02d8a6e20a5327e3ea2b3912c3ca315e29a"
+    },
+    {
+      "path": "src/IMG_xcf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c1526c49d55e55152b167606fee99e34588c3a",
+      "size": 24843,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/95c1526c49d55e55152b167606fee99e34588c3a"
+    },
+    {
+      "path": "src/IMG_xpm.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b2f1194b717fa1734a9d437e0c019c34a521076",
+      "size": 47705,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/2b2f1194b717fa1734a9d437e0c019c34a521076"
+    },
+    {
+      "path": "src/IMG_xv.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ff46496ceb876738018e32036537e32de2ed6e",
+      "size": 4218,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/10ff46496ceb876738018e32036537e32de2ed6e"
+    },
+    {
+      "path": "src/IMG_xxx.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca40bbc1ae249ec38af6e8fcb247276ad54d6ee",
+      "size": 2247,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/1ca40bbc1ae249ec38af6e8fcb247276ad54d6ee"
+    },
+    {
+      "path": "src/miniz.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "766940a6d6ce4291a60d483577ee837b25b38737",
+      "size": 229811,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/766940a6d6ce4291a60d483577ee837b25b38737"
+    },
+    {
+      "path": "src/nanosvg.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58ea5ca0dcc9633bf8900557fdd732946c0b5e2",
+      "size": 85530,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/e58ea5ca0dcc9633bf8900557fdd732946c0b5e2"
+    },
+    {
+      "path": "src/nanosvgrast.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0368e753510987ccab253de2378500d79e233bc",
+      "size": 38713,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/b0368e753510987ccab253de2378500d79e233bc"
+    },
+    {
+      "path": "src/qoi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31d4ce52992913fd4b47e3d47143eca4a84eabfd",
+      "size": 19281,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/31d4ce52992913fd4b47e3d47143eca4a84eabfd"
+    },
+    {
+      "path": "src/stb_image.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61cbb400ed200d86c6bb165a349ef3a0259372ba",
+      "size": 289121,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/61cbb400ed200d86c6bb165a349ef3a0259372ba"
+    },
+    {
+      "path": "src/tiny_jpeg.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc859b1cfb9be261c379fe2016cf7ff00a8549c7",
+      "size": 41787,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/dc859b1cfb9be261c379fe2016cf7ff00a8549c7"
+    },
+    {
+      "path": "src/version.rc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13eedcbf5c64969e5a470a40eda59584296e1b4",
+      "size": 976,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_image/git/blobs/c13eedcbf5c64969e5a470a40eda59584296e1b4"
+    }
+  ]
+}

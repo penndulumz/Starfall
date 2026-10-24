@@ -1,0 +1,910 @@
+{
+  "repository": "libsdl-org/SDL_mixer",
+  "revision": "171eb2d420d5643e4ee11514a06e04a41a463bbd",
+  "files": [
+    {
+      "path": "CHANGES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541bdf1c594702ad6b2d8a1c73e2fff477665294",
+      "size": 12333,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/541bdf1c594702ad6b2d8a1c73e2fff477665294"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4089aaf896957371107e6cff9210e50a8a61cce",
+      "size": 42124,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a4089aaf896957371107e6cff9210e50a8a61cce"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52d0ed38b843709d0d103d55bfb75715ec60550d",
+      "size": 878,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/52d0ed38b843709d0d103d55bfb75715ec60550d"
+    },
+    {
+      "path": "README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a62a6ab8fe6136c36c82e28b870f771e19427cc",
+      "size": 2509,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/0a62a6ab8fe6136c36c82e28b870f771e19427cc"
+    },
+    {
+      "path": "SDL2_mixer.pc.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c14ffb651b3b81d643236d5aad76b20c16960cdb",
+      "size": 323,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/c14ffb651b3b81d643236d5aad76b20c16960cdb"
+    },
+    {
+      "path": "SDL2_mixerConfig.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74517129593fbf7315c91ddcc78b48eace295e4a",
+      "size": 4296,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/74517129593fbf7315c91ddcc78b48eace295e4a"
+    },
+    {
+      "path": "cmake/CommonFindSDL2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a41bc6c97a2a47429b2125594bcf93582024235",
+      "size": 654,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/0a41bc6c97a2a47429b2125594bcf93582024235"
+    },
+    {
+      "path": "cmake/FindFLAC.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d471fecfb5151cb14c3426280ee28aa91d1d5265",
+      "size": 1372,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/d471fecfb5151cb14c3426280ee28aa91d1d5265"
+    },
+    {
+      "path": "cmake/FindFluidSynth.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e97ad012050d8da49e377b8409a5f7c88a2de70",
+      "size": 1631,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/4e97ad012050d8da49e377b8409a5f7c88a2de70"
+    },
+    {
+      "path": "cmake/FindOpusFile.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93be599381b116a878839113c71c06f5a9dfece1",
+      "size": 1719,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/93be599381b116a878839113c71c06f5a9dfece1"
+    },
+    {
+      "path": "cmake/FindPrivateSDL2.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0314170673ad54fa1ffa5f35b8500f74a8c3bfaa",
+      "size": 1608,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/0314170673ad54fa1ffa5f35b8500f74a8c3bfaa"
+    },
+    {
+      "path": "cmake/FindSDL2main.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbdfee862497c50dff7e24850fdc3977a9a2a3a6",
+      "size": 640,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/cbdfee862497c50dff7e24850fdc3977a9a2a3a6"
+    },
+    {
+      "path": "cmake/FindVorbis.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebcc5c3fdc1f3b91515d067253af1d27a9ea3c7",
+      "size": 1682,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/7ebcc5c3fdc1f3b91515d067253af1d27a9ea3c7"
+    },
+    {
+      "path": "cmake/Findgme.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e47c7ed0f01fe62743dd56969950724133e6daa0",
+      "size": 1474,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/e47c7ed0f01fe62743dd56969950724133e6daa0"
+    },
+    {
+      "path": "cmake/Findlibxmp-lite.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b6018be8d081af021f8895c91a2ae72ebcd64d",
+      "size": 1659,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a9b6018be8d081af021f8895c91a2ae72ebcd64d"
+    },
+    {
+      "path": "cmake/Findlibxmp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4bb175eafec8ef70bdadba119da04b55597f3b9",
+      "size": 1421,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a4bb175eafec8ef70bdadba119da04b55597f3b9"
+    },
+    {
+      "path": "cmake/Findmodplug.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af1e82ea36ce9187f4ebe81f35c9115b8cf9652f",
+      "size": 1490,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/af1e82ea36ce9187f4ebe81f35c9115b8cf9652f"
+    },
+    {
+      "path": "cmake/Findmpg123.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4e54df10d4f5d5f5d0183e083de55276c90f36",
+      "size": 1460,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/ae4e54df10d4f5d5f5d0183e083de55276c90f36"
+    },
+    {
+      "path": "cmake/Findtremor.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3bc256a0ecf00c4cc08a324f878bac534f9be1f",
+      "size": 1484,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a3bc256a0ecf00c4cc08a324f878bac534f9be1f"
+    },
+    {
+      "path": "cmake/Findwavpack.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71c0f87cd6b9267e6b7e519c0388af3297b14445",
+      "size": 1129,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/71c0f87cd6b9267e6b7e519c0388af3297b14445"
+    },
+    {
+      "path": "cmake/PkgConfigHelper.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7070fac795d81dbc8eb12b38b563c210b61f2397",
+      "size": 1253,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/7070fac795d81dbc8eb12b38b563c210b61f2397"
+    },
+    {
+      "path": "cmake/PrivateSdlFunctions.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f3786c0511bc4366e43e4e9186f30049aaea738",
+      "size": 12615,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/1f3786c0511bc4366e43e4e9186f30049aaea738"
+    },
+    {
+      "path": "include/SDL_mixer.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8bdae59c8e2eaacd079512e549ebd1d4396c78",
+      "size": 111455,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/ce8bdae59c8e2eaacd079512e549ebd1d4396c78"
+    },
+    {
+      "path": "sdl2_mixer-config-version.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70951516143c0591851b2b2fe9892b029aaf71cb",
+      "size": 391,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/70951516143c0591851b2b2fe9892b029aaf71cb"
+    },
+    {
+      "path": "sdl2_mixer-config.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f82e5a82629bcb62c2affd8d9bed98ac105b7844",
+      "size": 6533,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/f82e5a82629bcb62c2affd8d9bed98ac105b7844"
+    },
+    {
+      "path": "src/codecs/dr_libs/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16dfbdfda2b761d1ec2ed57266dbdc777349ad25",
+      "size": 2598,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/16dfbdfda2b761d1ec2ed57266dbdc777349ad25"
+    },
+    {
+      "path": "src/codecs/dr_libs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e8ca4086df14cac8d18b857ccd60b39eeed5865",
+      "size": 1167,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/6e8ca4086df14cac8d18b857ccd60b39eeed5865"
+    },
+    {
+      "path": "src/codecs/dr_libs/dr_flac.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14324cf37c017473689859b1b12301559bcb42b8",
+      "size": 525671,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/14324cf37c017473689859b1b12301559bcb42b8"
+    },
+    {
+      "path": "src/codecs/load_aiff.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6e233459123f1a65489a35c2c6987d93479855a",
+      "size": 7555,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/e6e233459123f1a65489a35c2c6987d93479855a"
+    },
+    {
+      "path": "src/codecs/load_aiff.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ebfaf075a10ce101ea2e149488a5f36bc2c00a",
+      "size": 1530,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/50ebfaf075a10ce101ea2e149488a5f36bc2c00a"
+    },
+    {
+      "path": "src/codecs/load_voc.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e415d3b50e3b815098035ffdd4a978d039b15d29",
+      "size": 14411,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/e415d3b50e3b815098035ffdd4a978d039b15d29"
+    },
+    {
+      "path": "src/codecs/load_voc.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b390d737ded6537850d8d5df1eef983f211ca313",
+      "size": 1615,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/b390d737ded6537850d8d5df1eef983f211ca313"
+    },
+    {
+      "path": "src/codecs/minimp3/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c4afabdb632b5d68e60c9fe9fe0b0819676a729",
+      "size": 6556,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/2c4afabdb632b5d68e60c9fe9fe0b0819676a729"
+    },
+    {
+      "path": "src/codecs/minimp3/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf9455a3b4ad8010d8a3d8e7b1c59f8281555c7",
+      "size": 13929,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/fbf9455a3b4ad8010d8a3d8e7b1c59f8281555c7"
+    },
+    {
+      "path": "src/codecs/minimp3/minimp3.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3220ae1a85b858a95af5766155ada91304344465",
+      "size": 76802,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/3220ae1a85b858a95af5766155ada91304344465"
+    },
+    {
+      "path": "src/codecs/minimp3/minimp3_ex.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cea33646bffce589e71d8790ecaf5163915eb4a",
+      "size": 49397,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/2cea33646bffce589e71d8790ecaf5163915eb4a"
+    },
+    {
+      "path": "src/codecs/mp3utils.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c11c9205b4060f3f6749e6cfc32af50327d145",
+      "size": 41010,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/02c11c9205b4060f3f6749e6cfc32af50327d145"
+    },
+    {
+      "path": "src/codecs/mp3utils.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "419e1cd98abe1ea53e9ab214eb5543fddc3aedeb",
+      "size": 2007,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/419e1cd98abe1ea53e9ab214eb5543fddc3aedeb"
+    },
+    {
+      "path": "src/codecs/music_cmd.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d0093a20007066106acc8ec6b015594bbe37404",
+      "size": 7215,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/9d0093a20007066106acc8ec6b015594bbe37404"
+    },
+    {
+      "path": "src/codecs/music_cmd.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11e5d514d71b94723bf737724ccc8dae4e84863c",
+      "size": 1145,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/11e5d514d71b94723bf737724ccc8dae4e84863c"
+    },
+    {
+      "path": "src/codecs/music_drflac.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2999188b9b7d3a708c98ff3f04a9c0d08e0be7db",
+      "size": 13102,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/2999188b9b7d3a708c98ff3f04a9c0d08e0be7db"
+    },
+    {
+      "path": "src/codecs/music_drflac.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb26768cfa7b5e9a990b9f047001a6218a0fcb4",
+      "size": 1142,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/deb26768cfa7b5e9a990b9f047001a6218a0fcb4"
+    },
+    {
+      "path": "src/codecs/music_flac.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52624e98d76b2c3e545b6a440730a5474d77e1bc",
+      "size": 28188,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/52624e98d76b2c3e545b6a440730a5474d77e1bc"
+    },
+    {
+      "path": "src/codecs/music_flac.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b3b3d2711f18f9855ee40abb2ebb533f0d50d1",
+      "size": 1082,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/44b3b3d2711f18f9855ee40abb2ebb533f0d50d1"
+    },
+    {
+      "path": "src/codecs/music_fluidsynth.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ede932cefa68105a8a84674c210a0c61d6ff5b5",
+      "size": 12797,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/0ede932cefa68105a8a84674c210a0c61d6ff5b5"
+    },
+    {
+      "path": "src/codecs/music_fluidsynth.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a925d47c95f150738b42da794d364c51cc165c1",
+      "size": 1194,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/7a925d47c95f150738b42da794d364c51cc165c1"
+    },
+    {
+      "path": "src/codecs/music_gme.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "248905818e76276a4c0cf711131b5377dfe19157",
+      "size": 12927,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/248905818e76276a4c0cf711131b5377dfe19157"
+    },
+    {
+      "path": "src/codecs/music_gme.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d0505a2ebd2ba6af036c8ee40e94e81ebc5314c",
+      "size": 1106,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/6d0505a2ebd2ba6af036c8ee40e94e81ebc5314c"
+    },
+    {
+      "path": "src/codecs/music_minimp3.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4bf55038ccc32894c2da5a07baafc6677e2a164",
+      "size": 7915,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a4bf55038ccc32894c2da5a07baafc6677e2a164"
+    },
+    {
+      "path": "src/codecs/music_minimp3.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a730b834cc83c9d9d40cb1192a54a996977a6a9",
+      "size": 1142,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/1a730b834cc83c9d9d40cb1192a54a996977a6a9"
+    },
+    {
+      "path": "src/codecs/music_modplug.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e558277f862908800a42299f8e96463756f83406",
+      "size": 11175,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/e558277f862908800a42299f8e96463756f83406"
+    },
+    {
+      "path": "src/codecs/music_modplug.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "884cb95a77c02be4fa054a460707edcf098163e2",
+      "size": 1145,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/884cb95a77c02be4fa054a460707edcf098163e2"
+    },
+    {
+      "path": "src/codecs/music_mpg123.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90750aeb8e4462e91dd1e0866062c82962e1090a",
+      "size": 16714,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/90750aeb8e4462e91dd1e0866062c82962e1090a"
+    },
+    {
+      "path": "src/codecs/music_mpg123.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f94d47b7028377968c87c57ca3e6799bc98c04c",
+      "size": 1140,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/3f94d47b7028377968c87c57ca3e6799bc98c04c"
+    },
+    {
+      "path": "src/codecs/music_nativemidi.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee23af8c80ceb767194aaa30a90244637a3ec5bb",
+      "size": 3118,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/ee23af8c80ceb767194aaa30a90244637a3ec5bb"
+    },
+    {
+      "path": "src/codecs/music_nativemidi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9243f469a0066bfa5e8784e46be0993e789d011a",
+      "size": 1146,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/9243f469a0066bfa5e8784e46be0993e789d011a"
+    },
+    {
+      "path": "src/codecs/music_ogg.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5ebd9569c10ad208ce88cec209ba1b1270c0cca",
+      "size": 16639,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a5ebd9569c10ad208ce88cec209ba1b1270c0cca"
+    },
+    {
+      "path": "src/codecs/music_ogg.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59fd7adfe3337e47b96a352ebbf95cf1c3895411",
+      "size": 1132,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/59fd7adfe3337e47b96a352ebbf95cf1c3895411"
+    },
+    {
+      "path": "src/codecs/music_ogg_stb.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b36d46ac3f433f645600ec44f0da307d791337",
+      "size": 14358,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/f9b36d46ac3f433f645600ec44f0da307d791337"
+    },
+    {
+      "path": "src/codecs/music_opus.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a367fbaa3ae00727d7a7bca22047b16b13922d24",
+      "size": 15453,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a367fbaa3ae00727d7a7bca22047b16b13922d24"
+    },
+    {
+      "path": "src/codecs/music_opus.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8948edc2a00e8528bee4593124422bfdccd620b6",
+      "size": 1131,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/8948edc2a00e8528bee4593124422bfdccd620b6"
+    },
+    {
+      "path": "src/codecs/music_timidity.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135d0fdd8aba6335e08a5ae1fcb4af9408f7f9ab",
+      "size": 8005,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/135d0fdd8aba6335e08a5ae1fcb4af9408f7f9ab"
+    },
+    {
+      "path": "src/codecs/music_timidity.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e34792f0295aabd3df873e60f8e55c10afae183",
+      "size": 1145,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/2e34792f0295aabd3df873e60f8e55c10afae183"
+    },
+    {
+      "path": "src/codecs/music_wav.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbdb0892a7c50ceb014d8e4ad739a6b75d4833a7",
+      "size": 39756,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/fbdb0892a7c50ceb014d8e4ad739a6b75d4833a7"
+    },
+    {
+      "path": "src/codecs/music_wav.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c7bd3b5747fcd45377b0fd94cb9548421c3f106",
+      "size": 1127,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/6c7bd3b5747fcd45377b0fd94cb9548421c3f106"
+    },
+    {
+      "path": "src/codecs/music_wavpack.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f7ce30147ed5eb14648847a3112fc75884a0660",
+      "size": 24198,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/6f7ce30147ed5eb14648847a3112fc75884a0660"
+    },
+    {
+      "path": "src/codecs/music_wavpack.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc6e3edbbc07bdef747097b568f92e05d2b2357",
+      "size": 1135,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/9cc6e3edbbc07bdef747097b568f92e05d2b2357"
+    },
+    {
+      "path": "src/codecs/music_xmp.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bf9df1486b71411a71a80f1117bb73dae52627",
+      "size": 13333,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/83bf9df1486b71411a71a80f1117bb73dae52627"
+    },
+    {
+      "path": "src/codecs/music_xmp.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb561ba0c6252ff0ddc5a663e67a88f0261d9bc0",
+      "size": 1137,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/cb561ba0c6252ff0ddc5a663e67a88f0261d9bc0"
+    },
+    {
+      "path": "src/codecs/native_midi/native_midi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280084d7afaf3524c8ec4b7d2a25c13ac4b3cbd7",
+      "size": 1546,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/280084d7afaf3524c8ec4b7d2a25c13ac4b3cbd7"
+    },
+    {
+      "path": "src/codecs/native_midi/native_midi_common.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fa7f32e0cc982cd11ec5b44e37d284248e246d7",
+      "size": 11542,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/1fa7f32e0cc982cd11ec5b44e37d284248e246d7"
+    },
+    {
+      "path": "src/codecs/native_midi/native_midi_common.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "438d53d48c0ac3c2323393f26ea09cc9957a9d09",
+      "size": 2260,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/438d53d48c0ac3c2323393f26ea09cc9957a9d09"
+    },
+    {
+      "path": "src/codecs/native_midi/native_midi_haiku.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81b847e93ed0a8ee73941fc5c2c3fc16259d3e9e",
+      "size": 6658,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/81b847e93ed0a8ee73941fc5c2c3fc16259d3e9e"
+    },
+    {
+      "path": "src/codecs/native_midi/native_midi_macosx.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916ea21d94e3dc1ab1113ae32fee17f8e16e4ad9",
+      "size": 9743,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/916ea21d94e3dc1ab1113ae32fee17f8e16e4ad9"
+    },
+    {
+      "path": "src/codecs/native_midi/native_midi_win32.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "522bd91e1aba9337dd2ad51f1a90409bc0f515ed",
+      "size": 8481,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/522bd91e1aba9337dd2ad51f1a90409bc0f515ed"
+    },
+    {
+      "path": "src/codecs/stb_vorbis/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ea46a122d96f3912249994dca6a37f44b894ec",
+      "size": 284,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/59ea46a122d96f3912249994dca6a37f44b894ec"
+    },
+    {
+      "path": "src/codecs/stb_vorbis/stb_vorbis.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1c39111a19a9e8da29d34a87ce1f5d208c9642",
+      "size": 199670,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/ae1c39111a19a9e8da29d34a87ce1f5d208c9642"
+    },
+    {
+      "path": "src/codecs/timidity/Android.mk",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17585a71249a84e368bdb2757bfc97e11af4f5d2",
+      "size": 342,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/17585a71249a84e368bdb2757bfc97e11af4f5d2"
+    },
+    {
+      "path": "src/codecs/timidity/CHANGES",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab79e9931013c21a615b48207d6daad817421a3e",
+      "size": 3188,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/ab79e9931013c21a615b48207d6daad817421a3e"
+    },
+    {
+      "path": "src/codecs/timidity/COPYING",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdbb291069a67ee20a9cda1f3f32266ac6903b89",
+      "size": 6106,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/cdbb291069a67ee20a9cda1f3f32266ac6903b89"
+    },
+    {
+      "path": "src/codecs/timidity/FAQ",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee0b77bfb541c8c1057ef413a4a6e805c14e935",
+      "size": 4789,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/1ee0b77bfb541c8c1057ef413a4a6e805c14e935"
+    },
+    {
+      "path": "src/codecs/timidity/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd9892c5deb7082247e1b2004b0ced00e86f9ff",
+      "size": 2318,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/0dd9892c5deb7082247e1b2004b0ced00e86f9ff"
+    },
+    {
+      "path": "src/codecs/timidity/TODO",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b37ee249fe5ae81cc8a1e3d44733ddb25f2229",
+      "size": 1395,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/69b37ee249fe5ae81cc8a1e3d44733ddb25f2229"
+    },
+    {
+      "path": "src/codecs/timidity/common.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8786c19e3b8f9bb558f69f3739a7e349a24a9900",
+      "size": 2532,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/8786c19e3b8f9bb558f69f3739a7e349a24a9900"
+    },
+    {
+      "path": "src/codecs/timidity/common.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b2b1caa509c21dd0963099f7704ec8bb3a71f88",
+      "size": 802,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/1b2b1caa509c21dd0963099f7704ec8bb3a71f88"
+    },
+    {
+      "path": "src/codecs/timidity/instrum.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53d4a2e66df4e6052a821754040324c58b06401",
+      "size": 15587,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/d53d4a2e66df4e6052a821754040324c58b06401"
+    },
+    {
+      "path": "src/codecs/timidity/instrum.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa650513815b53518eff9ecd77b0a4fabbdf6ff",
+      "size": 1135,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/0fa650513815b53518eff9ecd77b0a4fabbdf6ff"
+    },
+    {
+      "path": "src/codecs/timidity/mix.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "453e5f3c3a522597fd11bd156e48bc6d67a64519",
+      "size": 11856,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/453e5f3c3a522597fd11bd156e48bc6d67a64519"
+    },
+    {
+      "path": "src/codecs/timidity/mix.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fef2f27425547d9cc72ccba21204108971a2bf26",
+      "size": 711,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/fef2f27425547d9cc72ccba21204108971a2bf26"
+    },
+    {
+      "path": "src/codecs/timidity/options.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025dfd97842d811793d632444ca2493eb3e309c5",
+      "size": 3574,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/025dfd97842d811793d632444ca2493eb3e309c5"
+    },
+    {
+      "path": "src/codecs/timidity/output.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ea1d182fc3d7507f233055722c16d142890d83",
+      "size": 2495,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/47ea1d182fc3d7507f233055722c16d142890d83"
+    },
+    {
+      "path": "src/codecs/timidity/output.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a08f5bb1155adca76cf4541cdd641f67874b4a7",
+      "size": 1880,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/3a08f5bb1155adca76cf4541cdd641f67874b4a7"
+    },
+    {
+      "path": "src/codecs/timidity/playmidi.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ed25336972e0bb5d4c77615be92792836c3e09",
+      "size": 21127,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/87ed25336972e0bb5d4c77615be92792836c3e09"
+    },
+    {
+      "path": "src/codecs/timidity/playmidi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f8a489b6121c16e2da97699bfa96bff6fe1750d",
+      "size": 1271,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/8f8a489b6121c16e2da97699bfa96bff6fe1750d"
+    },
+    {
+      "path": "src/codecs/timidity/readmidi.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ab3fa72ab3549e635f4eea8417d94caee3120f",
+      "size": 16187,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/00ab3fa72ab3549e635f4eea8417d94caee3120f"
+    },
+    {
+      "path": "src/codecs/timidity/readmidi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b599a76de384562c59113f7c78ed4e29d6571fe",
+      "size": 507,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/4b599a76de384562c59113f7c78ed4e29d6571fe"
+    },
+    {
+      "path": "src/codecs/timidity/resample.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "333903f894652ff306b30ce6db9cf877a61bafd5",
+      "size": 14615,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/333903f894652ff306b30ce6db9cf877a61bafd5"
+    },
+    {
+      "path": "src/codecs/timidity/resample.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3811755445187641b56e19526a6019c434359a",
+      "size": 608,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/ac3811755445187641b56e19526a6019c434359a"
+    },
+    {
+      "path": "src/codecs/timidity/tables.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01e48f24774169f6f4697003272fc5bff866d51",
+      "size": 11847,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/e01e48f24774169f6f4697003272fc5bff866d51"
+    },
+    {
+      "path": "src/codecs/timidity/tables.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672033e5485ee6850ca9a8ddd4bd224c141db36f",
+      "size": 770,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/672033e5485ee6850ca9a8ddd4bd224c141db36f"
+    },
+    {
+      "path": "src/codecs/timidity/timidity.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c32e2801ecd9fc3514a8160e6458c0e9a1d4cb2f",
+      "size": 18198,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/c32e2801ecd9fc3514a8160e6458c0e9a1d4cb2f"
+    },
+    {
+      "path": "src/codecs/timidity/timidity.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3764c4f0b77aeba183511d96ce19b4ecd5427739",
+      "size": 4430,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/3764c4f0b77aeba183511d96ce19b4ecd5427739"
+    },
+    {
+      "path": "src/effect_position.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfc167490d0b06df84e7f76da8ba2a646637183d",
+      "size": 81108,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/dfc167490d0b06df84e7f76da8ba2a646637183d"
+    },
+    {
+      "path": "src/effect_stereoreverse.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a73a85d47daa8860cc3983e54bed1a7d4fdb066",
+      "size": 3878,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/6a73a85d47daa8860cc3983e54bed1a7d4fdb066"
+    },
+    {
+      "path": "src/effects_internal.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d1bd6aa3cf3b06d93168a10c83e9b961b749ef",
+      "size": 3391,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/64d1bd6aa3cf3b06d93168a10c83e9b961b749ef"
+    },
+    {
+      "path": "src/effects_internal.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0e6bf669218795d9dc88dd568f283d364f60457",
+      "size": 1739,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/c0e6bf669218795d9dc88dd568f283d364f60457"
+    },
+    {
+      "path": "src/mixer.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25bd6dec75d59ad1e267f4d673e2e19dc8c4646d",
+      "size": 51078,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/25bd6dec75d59ad1e267f4d673e2e19dc8c4646d"
+    },
+    {
+      "path": "src/mixer.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa91473e5b43912a861de324f7ee9b8bd75dd3e8",
+      "size": 1221,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/fa91473e5b43912a861de324f7ee9b8bd75dd3e8"
+    },
+    {
+      "path": "src/music.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9535d2cab46e7f434144c1ed1fa84dc761a13a0",
+      "size": 42053,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/f9535d2cab46e7f434144c1ed1fa84dc761a13a0"
+    },
+    {
+      "path": "src/music.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee0d281d6f889e145e4bc33e173f9eedd11bbff",
+      "size": 5254,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/2ee0d281d6f889e145e4bc33e173f9eedd11bbff"
+    },
+    {
+      "path": "src/utils.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58ced07df2700c961e1b7958f31503a3d8601e3e",
+      "size": 4010,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/58ced07df2700c961e1b7958f31503a3d8601e3e"
+    },
+    {
+      "path": "src/utils.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f313f5a9cd5a5e5246c6ddfdb5cff8bc276aac",
+      "size": 1486,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a7f313f5a9cd5a5e5246c6ddfdb5cff8bc276aac"
+    },
+    {
+      "path": "version.rc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a337a28b66bf76971b08739db2a61ac02c6a38ad",
+      "size": 976,
+      "url": "https://api.github.com/repos/libsdl-org/SDL_mixer/git/blobs/a337a28b66bf76971b08739db2a61ac02c6a38ad"
+    }
+  ]
+}

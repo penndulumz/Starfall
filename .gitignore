@@ -1,0 +1,10 @@
+/build/
+/releases/
+/dist/
+/.vs/
+/.vscode/
+*.user
+*.suo
+*.obj
+*.o
+__pycache__/

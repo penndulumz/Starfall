@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.dll -text
+*.exe -text
+*.png -text
+*.ttf -text
+*.flac -text
+# Preserve pinned upstream bytes so source-lock hashes survive every checkout.
+third_party/** -text
+resources/** -text
